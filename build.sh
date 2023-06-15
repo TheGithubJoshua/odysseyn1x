@@ -81,6 +81,7 @@ export DEBIAN_FRONTEND=noninteractive
 # Install requiered packages
 apt-get install -y --no-install-recommends linux-image-$KERNEL_ARCH live-boot \
   systemd systemd-sysv usbmuxd libusbmuxd-tools openssh-client sshpass xz-utils whiptail
+apt-get install curl
 # Remove apt as it won't be usable anymore
 apt purge apt -y --allow-remove-essential
 EOF
