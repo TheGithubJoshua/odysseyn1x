@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'build.sh'
+      - 'txt.txt'
 
 jobs:
 
